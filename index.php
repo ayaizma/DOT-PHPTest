@@ -1,9 +1,5 @@
 <?php
 include_once("config.php");
-include_once("buatdb.php");
-include_once("company.php");
-include_once("department.php");
-include_once("employee.php");
 $result = mysqli_query($mysqli, "SELECT * FROM employee ORDER BY id_ ASC");
 ?>
 
